@@ -19,7 +19,7 @@ This project demonstrates how a static website was deployed using **Amazon S3**.
 - Downloaded a static website template  
 - Extracted the files  
 - Ensured the main file was named `index.html`  
-![static template](img1.png)
+![static template](images/img1.png)
 ---
 
 ### 2. Create an S3 Bucket
@@ -27,25 +27,25 @@ This project demonstrates how a static website was deployed using **Amazon S3**.
 - Navigated to **Amazon S3**  
 - Clicked **Create Bucket**  
 - Entered a unique bucket name  
-![create bucket](img2.png)
+![create bucket](images/img2.png)
 - Selected a region  
 - Disabled **Block all public access**  
-![Block public access](img4.png)
+![Block public access](images/img4.png)
 - Created the bucket  
 
 ---
 
 ### 3. Upload Website Files
 - Opened the bucket 
-![Bucket open](img3.png)
+![Bucket open](images/img3.png)
 - Clicked **Upload**  
 - Uploaded all website files (HTML, CSS, JS, images) 
-![Upload](img5.png) 
+![Upload](images/img5.png) 
 - Confirmed successful upload  
 
 - Click on the index.html and then open to view the static web page
 
-![Confirmed](img7.png)
+![Confirmed](images/img7.png)
 ---
 
 ### 4. Enable Static Website Hosting
@@ -58,4 +58,4 @@ This project demonstrates how a static website was deployed using **Amazon S3**.
 
 ### 5. Set Bucket Permissions
 Added a bucket policy to allow public access:
-![Policy](img8.png)
+![Policy](images/img8.png)
