@@ -41,6 +41,7 @@ This project demonstrates how a static website was deployed using **Amazon S3**.
 - Clicked **Upload**  
 - Uploaded all website files (HTML, CSS, JS, images) 
 ![Upload](images/img5.png) 
+
 - Confirmed successful upload  
 
 - Click on the index.html and then open to view the static web page
@@ -53,9 +54,17 @@ This project demonstrates how a static website was deployed using **Amazon S3**.
 - Enabled **Static Website Hosting**  
 - Set:
   - Index document: `index.html`  
-  - Error document: `error.html` (optional)  
+  - Error document: `error.html` (optional) 
+  ![Enabled](images/img6.png) 
 - Saved changes  
+---
 
 ### 5. Set Bucket Permissions
 Added a bucket policy to allow public access:
 ![Policy](images/img8.png)
+
+### 6. View the static web page
+- Click on the index.html and then open to view the static web page
+
+![Confirmed](images/img7.png)
+---
