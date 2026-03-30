@@ -44,10 +44,6 @@ This project demonstrates how a static website was deployed using **Amazon S3**.
 
 - Confirmed successful upload  
 
-- Click on the index.html and then open to view the static web page
-
-![Confirmed](images/img7.png)
----
 
 ### 4. Enable Static Website Hosting
 - Went to the **Properties** tab  
